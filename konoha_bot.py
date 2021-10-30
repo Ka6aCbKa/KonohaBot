@@ -37,7 +37,7 @@ def my_hook(d):
 client = commands.Bot(command_prefix="-")
 
 
-@client.command(name="play", aliases=["p"])
+@client.command(name="play", aliases=["p","и"])
 async def play(ctx, *args):
     song_there = os.path.isfile("song.mp3")
     try:
@@ -122,4 +122,4 @@ async def h(ctx):
     await ctx.send('Какроче в двух словах как работает бот\n-play [ссылку на видос с ютуба или название песни]\n' +
                    'Песня будет останавливать текущую и сразу играть\nТак как очереди на данный момент нет')
 
-client.run('ODk1Mzc4MTUwOTM3MjA2ODc0.YV3r4g.xCOO6PFY-SuXnaRsLdfhQiJpo_w')
+client.run('ODk1Mzc4MTUwOTM3MjA2ODc0.YV3r4g.v9u-3OQ7aavniMC9wPyqJkwdRrY')
